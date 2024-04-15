@@ -21,26 +21,34 @@ Prerequisites
 INSTALLATIONS
 1)	Clone this repository to your local machine:
 i)	git clone https://github.com/Nteka10/NTSOEKHE-DDBMS-SYSTEM-DESIGN
-ii)	Download the zip file of our scripts on the green “<> code” tab.
+ii)	Download the zip file of our scripts on the green “<> code” icon.
 iii)	Unzip the folder, and open it in MS Visual Studio code.
 
-3)	Change working directory to Ntsoekhe-image in the terminal.
-i)      cd Ntsoekhe-image
+2) set up virsual environment and working directories
+i) Install sqlite viewer for easy view of database.db
+  -NB: The database(database.db) already has a patient table created.
+ii) Create python environment (.venv) inside the working directory (Ntsoekhe-Image) using
+    the latest python version installed on your local host.
+iii) Open the terminal (Terminal: Create New Terminal) and install flask using the command (python -m pip install flask) inside the virtual environmet create above.
+NB: Simply click on database.db to navigate the database and inspects its table elements.
 
-4)	Build the Docker image:
+3) Open new terminal to build image and container using the shortcut (Ctrl + Shift + ') in MIcrosoft Visual Studio Code, or simple open the terminal of your IDLE
+
+4) Change working directory using the command (cd Ntsoekhe-image) 
+
+5)	Build the Docker image:
 i)	docker image build -t patients .  (NB: the period is part of the command)
 
-5)	Define docker ports and host ports, run the image inside the container:
-i)	
+6)	Define docker ports and host ports,run the image inside the container: 
+i) docker run -p 5000:5000 --name north patients(NB: "north" represents the container name and "patients" represent the image name)  
 
-
-6)	Navigate to docker: 
+7)	Navigate to docker: 
 i)	Run the container, copy the URL link that appears.
 
-7)	Open Web Browser:
+8)	Open Web Browser:
 i)      Paste the url and run it, the user interface will pop up.
 
-8)	Navigate the user interface:
+9)	Navigate the user interface:
 i)      Apply CRUD functionalities on the interface so  as to manipulate the database.
 
 
