@@ -21,26 +21,27 @@ Prerequisites
 INSTALLATIONS
 1)	Clone this repository to your local machine:
 i)	git clone https://github.com//distributed-dbms.git
-ii)	Download the zip file of our scripts on the green “<> code” tab.
-iii)	Unzip the folder, and open it in MS Visual Studio code.
+ii) Download the README file for use instructions.
+iii)	Download the zip file of our scripts on the green “<> code” tab.
+iv)	Unzip the folder, and open it in MS Visual Studio code.
 
-2)	Change working directory to Ntsoekhe-image in the terminal.
+3)	Change working directory to Ntsoekhe-image in the terminal.
 i)      cd Ntsoekhe-image
 
-3)	Build the Docker image:
+4)	Build the Docker image:
 i)	docker image build -t patients .  (NB: the period is part of the command)
 
-4)	Define docker ports and host ports, run the image inside the container:
+5)	Define docker ports and host ports, run the image inside the container:
 i)	
 
 
-5)	Navigate to docker: 
+6)	Navigate to docker: 
 i)	Run the container, copy the URL link that appears.
 
-6)	Open Web Browser:
+7)	Open Web Browser:
 i)      Paste the url and run it, the user interface will pop up.
 
-7)	Navigate the user interface:
+8)	Navigate the user interface:
 i)      Apply CRUD functionalities on the interface so  as to manipulate the database.
 
 
