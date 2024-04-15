@@ -20,10 +20,9 @@ Prerequisites
 •	Install Microsoft Visual Studio Code
 INSTALLATIONS
 1)	Clone this repository to your local machine:
-i)	git clone https://github.com//distributed-dbms.git
-ii) Download the README file for use instructions.
-iii)	Download the zip file of our scripts on the green “<> code” tab.
-iv)	Unzip the folder, and open it in MS Visual Studio code.
+i)	git clone https://github.com/Nteka10/NTSOEKHE-DDBMS-SYSTEM-DESIGN
+ii)	Download the zip file of our scripts on the green “<> code” tab.
+iii)	Unzip the folder, and open it in MS Visual Studio code.
 
 3)	Change working directory to Ntsoekhe-image in the terminal.
 i)      cd Ntsoekhe-image
