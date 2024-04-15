@@ -1,0 +1,38 @@
+/* Navbar styles */
+.navbar {
+    background-color: #2C3E50; 
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif; 
+    color: #FFFFFF;
+    padding: 15px 0; 
+    text-align: center; 
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-brand {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.navbar-item {
+    margin: 0 20px; 
+}
+
+/* Main content styles */
+.body-content {
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif; 
+    color: #333333;
+}
+
+/* Background image */
+body {
+    background-image: url('health.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
